@@ -17,6 +17,8 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet weak var stepper: UIStepper!
     
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,7 +30,8 @@ class CustomTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    
+
+     // to store the value of stepper in label to display the quantity
     @IBAction func stepperAction(_ sender: UIStepper) {
         
         let numberDouble = stepper.value
