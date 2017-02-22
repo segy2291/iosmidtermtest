@@ -1,6 +1,9 @@
 //
 //  ViewController.swift
 //  iOSTest
+
+// student name : Sagar Ranipa
+// student id : 300914091
 //
 //  Created by Sagar patel on 2017-02-21.
 //  Copyright © 2017 segy. All rights reserved.
